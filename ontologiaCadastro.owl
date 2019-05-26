@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#atendeEspecilidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#atendeEspecilidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehGeridaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehGeridaPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Gestão"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehUmTipoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehUmTipoDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoEsfera -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoEsfera">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Jurídica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoEsferaAdm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoEsferaAdm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Administrativa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoNatuJur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoNatuJur">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza_Jurídica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoNatureza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#enquadadoNatureza">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#especialidadeDetalhe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#especialidadeDetalhe">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#atendeEspecilidade"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade_detalhada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#especilidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#especilidade">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#atendeEspecilidade"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaEnquadradaEm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localDAE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localDAE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Divisão_administ_estadual"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMacroRS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMacroRS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Macrorregião_de_Saúde"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMetropolitano -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMetropolitano">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_Metropolitana_-_RIDE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMicroIbge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMicroIbge">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Microrregião_IBGE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMuncipio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMuncipio">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Municipio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMuncipioGestor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localMuncipioGestor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Município_gestor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localRS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#localRS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#estaLocalizadoEm"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_de_Saúde_(CIR)"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#serveComo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#serveComo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ensino/Pesquisa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#temPrestadoresDoTipo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#temPrestadoresDoTipo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Prestador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#tipoEstabelecimento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#tipoEstabelecimento">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehUmTipoDe"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Estabelecimento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#tipoLeito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#tipoLeito">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#ehUmTipoDe"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_cirúrgicos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_clínicos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_hospital_dia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_obstétricos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_outras_especial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_pediátricos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#possuiNome -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#possuiNome">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#possuiNumero -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#possuiNumero">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ambulatório-Consultório -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ambulatório-Consultório">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Divisão_administ_estadual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Divisão_administ_estadual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Equipamentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Equipamentos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Administrativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Administrativa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Jurídica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Esfera_Jurídica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade_detalhada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Especialidade_detalhada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Instalações_Físicas-Obstetrícia_e_Neonatologia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Instalações_Físicas-Obstetrícia_e_Neonatologia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Leitos_Complementares -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Leitos_Complementares">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Leitos_Internação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Hospitalar-Leitos_Internação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_cirúrgicos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_cirúrgicos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_clínicos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_clínicos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_hospital_dia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_hospital_dia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_obstétricos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_obstétricos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_outras_especial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_outras_especial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_pediátricos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Leitos_pediátricos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Macrorregião_de_Saúde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Macrorregião_de_Saúde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Microrregião_IBGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Microrregião_IBGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Municipio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Municipio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Município_gestor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Município_gestor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza_Jurídica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Natureza_Jurídica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_Metropolitana_-_RIDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_Metropolitana_-_RIDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Estabelecimento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Estabelecimento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Gestão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Gestão">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Prestador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Tipo_de_Prestador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Urgência-Consultórios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Urgência-Consultórios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ambulatório-Leitos_de_repouso/observação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ambulatório-Leitos_de_repouso/observação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ensino/Pesquisa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ensino/Pesquisa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_de_Saúde_(CIR) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_de_Saúde_(CIR)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Urgência-Leitos_de_repouso/observação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Urgência-Leitos_de_repouso/observação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Curitiba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Curitiba">
+        <possuiNome>Curitiba</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416690</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CuritibaIbge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CuritibaIbge">
+        <possuiNome>Curitiba</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41037</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Macrorregião_Leste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Macrorregião_Leste">
+        <possuiNome>Leste</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4101</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#MetropolitanaCuritiba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#MetropolitanaCuritiba">
+        <possuiNome>Curitiba</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41010</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#RS_Curitiba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#RS_Curitiba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Região_de_Saúde_(CIR)"/>
+        <possuiNome>2ª RS Metropolitana</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41002</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Sem_div_adm_PR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Sem_div_adm_PR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Divisão_administ_estadual"/>
+        <possuiNome>Sem div.adm.estadual PR</possuiNome>
+        <possuiNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4190</possuiNumero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#UnidadeA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#UnidadeA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade"/>
+        <localMicroIbge rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#CuritibaIbge"/>
+        <localMuncipio rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Curitiba"/>
+        <localMuncipioGestor rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Curitiba"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade_Universitaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade_Universitaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ensino/Pesquisa"/>
+        <possuiNome>Unidade Universitária</possuiNome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade_sem_atividade_de_ensino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Unidade_sem_atividade_de_ensino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12#Ensino/Pesquisa"/>
+        <possuiNome>Unidade sem atividade de ensino</possuiNome>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
