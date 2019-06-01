@@ -13,49 +13,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possuiDados -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possuiDados">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dados"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possuiTpGestao -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possuiTpGestao">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possuiTpGestao"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -64,10 +21,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Caracteristicas"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegMedUr -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegMedUr">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dados"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:DatatypeProperty>
     
@@ -76,15 +41,41 @@
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegSrvSd -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegSrvSd">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dados"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dados -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Gerais -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dados"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Gerais">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UciIsol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UciIsol">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Uti -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Uti">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -96,6 +87,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Caracteristicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Caracteristicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:Class>
     
 
 
@@ -111,6 +110,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -122,34 +127,123 @@
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Estadual -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr17 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Estadual">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Estadual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Janeiro -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Mista -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Janeiro">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
-        <possuiTpGestao rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Estadual"/>
-        <CntrRegMedUr rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</CntrRegMedUr>
-        <CntrRegSrvSd rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</CntrRegSrvSd>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Mista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Mista -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Municipal -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Mista"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Municipal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Municipal -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago16 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Municipal"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Estadual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Estadual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Mista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Mista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Municipal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Municipal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#MesRegistro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Estadual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Estadual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Mista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Mista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Municipal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Municipal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
