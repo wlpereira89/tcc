@@ -29,6 +29,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#ClincEspc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#ClincEspc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CnrtTransp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CnrtTransp">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CnsltIso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CnsltIso">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrAtcHem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrAtcHem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrAtcPsic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrAtcPsic">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegMedUr -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegMedUr">
@@ -47,10 +87,90 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrSaude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrSaude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Gerais -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Gerais">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#HospGeral -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#HospGeral">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Lacen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Lacen">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Nutes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Nutes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#OfOrto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#OfOrto">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Policli -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Policli">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SadtIso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SadtIso">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Samu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Samu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#ServAtDom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#ServAtDom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sms">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
     </owl:DatatypeProperty>
     
 
@@ -67,6 +187,22 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UciIsol">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UnMvNvPreHospUrg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UnMvNvPreHospUrg">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Upa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Upa">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
     </owl:DatatypeProperty>
     
 
