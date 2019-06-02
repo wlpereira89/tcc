@@ -1,0 +1,15 @@
+CNES - Recursos Físicos - Hospitalar - Leitos de internação - Paraná;;;;;;;;;;;;;;;;;;;;;
+Qtd SUS por Município e Ano/mês compet.;;;;;;;;;;;;;;;;;;;;;
+Município gestor: 410690 Curitiba;;;;;;;;;;;;;;;;;;;;;
+Período:Ago/2016-Abr/2018;;;;;;;;;;;;;;;;;;;;;
+Município;2016/Ago;2016/Set;2016/Out;2016/Nov;2016/Dez;2017/Jan;2017/Fev;2017/Mar;2017/Abr;2017/Mai;2017/Jun;2017/Jul;2017/Ago;2017/Set;2017/Out;2017/Nov;2017/Dez;2018/Jan;2018/Fev;2018/Mar;2018/Abr
+410690 Curitiba;2745;2745;2745;2745;2745;2745;2745;2734;2734;2734;2738;2736;2734;2732;2732;2731;2731;2735;2735;2736;2736
+Total;2745;2745;2745;2745;2745;2745;2745;2734;2734;2734;2738;2736;2734;2732;2732;2731;2731;2735;2735;2736;2736
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES;;;;;;;;;;;;;;;;;;;;;
+ Nota:;;;;;;;;;;;;;;;;;;;;;
+" A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:";;;;;;;;;;;;;;;;;;;;;
+ ;;;;;;;;;;;;;;;;;;;;;
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".;;;;;;;;;;;;;;;;;;;;;
+" De junho de 2012 a outubro de 2015, estão disponíveis tanto como ""Natureza"" e ""Esfera Administrativa"", como ""Natureza Jurídica"" e ""Esfera Jurídica"".";;;;;;;;;;;;;;;;;;;;;
+" A partir de novembro de 2015, estão disponíveis como ""Natureza Jurídica"" e ""Esfera Jurídica"".";;;;;;;;;;;;;;;;;;;;;
+ ;;;;;;;;;;;;;;;;;;;;;
