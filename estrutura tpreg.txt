@@ -1,0 +1,39 @@
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3 </Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
