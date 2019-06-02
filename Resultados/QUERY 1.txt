@@ -1,0 +1,6 @@
+PREFIX cnes:<http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#> 
+select ?mes  ?leitosGerais ?Uti  ?UciIsol
+  where {?mes a  cnes:MesRegistro .
+               ?mes cnes:Gerais  ?leitosGerais .
+               ?mes cnes:UciIsol ?UciIsol .
+               ?mes cnes:Uti ?Uti}
