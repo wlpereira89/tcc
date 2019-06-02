@@ -24,7 +24,7 @@ select
 where {
 	?mes a  cnes:MesRegistro .
 	?mes rdfs:label ?lbmes .
-	?tpgest cnes:pertenceMês ?mes .
+	?tpgest cnes:pertenceMes ?mes .
 	?tpgest rdfs:label ?lbtpgest .
 	?tpgest cnes:CntrRegSrvSd ?CntrRegSrvSd .
 	?tpgest cnes:CntrRegMedUr ?CntrRegMedUr .

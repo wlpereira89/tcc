@@ -1,0 +1,44 @@
+PREFIX cnes:<http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#> 
+select 
+	?lbmes  
+	?lbtpgest
+	?CntrRegSrvSd
+	?CntrRegMedUr
+	?CntrAtcHem
+	?CntrAtcPsic
+	?CntrSaude
+	?ClincEspc
+	?CnsltIso
+	?HospEsp
+	?HospGeral
+	?Lacen
+	?Policli
+	?Upa
+	?Sms
+	?ServAtDom
+	?SadtIso
+	?Samu
+	?Nutes
+	?OfOrto
+	?CnrtTransp
+where {
+	cnes:CntrRegSrvSd rdfs:label ?CntrRegSrvSd .
+	cnes:CntrRegMedUr rdfs:label ?CntrRegMedUr .
+	cnes:CntrAtcHem rdfs:label ?CntrAtcHem .
+	cnes:CntrAtcPsic rdfs:label ?CntrAtcPsic .
+	cnes:CntrSaude rdfs:label ?CntrSaude .
+	cnes:ClincEspc rdfs:label ?ClincEspc .
+	cnes:CnsltIso rdfs:label ?CnsltIso .
+	cnes:HospEsp rdfs:label ?HospEsp .
+	cnes:HospGeral rdfs:label ?HospGeral .
+	cnes:Lacen rdfs:label ?Lacen .
+	cnes:Policli rdfs:label ?Policli .
+	cnes:Upa rdfs:label ?Upa .
+	cnes:Sms rdfs:label ?Sms .
+	cnes:ServAtDom rdfs:label ?ServAtDom .
+	cnes:SadtIso rdfs:label ?SadtIso .
+	cnes:Samu rdfs:label ?Samu .
+	cnes:Nutes rdfs:label ?Nutes .
+	cnes:OfOrto rdfs:label ?OfOrto .
+	cnes:CnrtTransp rdfs:label ?CnrtTransp 
+}
