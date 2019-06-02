@@ -355,6 +355,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2734</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</Uti>
+		<rdfs:label>Abril/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -366,6 +367,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2736</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</Uti>
+        <rdfs:label>Abril/2018</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -394,6 +396,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa>
+		<rdfs:label>Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -422,6 +425,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa>
+		<rdfs:label>Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -450,6 +454,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa>
+		<rdfs:label>Municipal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -461,6 +466,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2745</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</Uti>
+		<rdfs:label>Agosto/2016</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -472,6 +478,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2734</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</Uti>
+		<rdfs:label>Agosto/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -500,6 +507,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa>
+		<rdfs:label>Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -528,6 +536,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa>
+		<rdfs:label>Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -556,6 +565,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa>
+		<rdfs:label>Municipal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -567,6 +577,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2745</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</Uti>
+		<rdfs:label>Dezembro/2016</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -578,6 +589,7 @@
         <Gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2731</Gerais>
         <UciIsol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UciIsol>
         <Uti rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</Uti>
+		<rdfs:label>Dezembro/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -606,6 +618,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa>
+		<rdfs:label>Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -634,6 +647,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa>
+		<rdfs:label>Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -662,6 +676,7 @@
         <ServAtDom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19 </ServAtDom>
         <Sms rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms>
         <Upa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa>
+		<rdfs:label>Municipal</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
