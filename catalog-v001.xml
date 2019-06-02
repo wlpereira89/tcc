@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1559481481135" name="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12" uri="ontologiaCadastro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1559481481135" name="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20" uri="ontologiaCNES.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1559489168846" name="http://www.semanticweb.org/wagne/ontologies/2018/11/untitled-ontology-12" uri="ontologiaCadastro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1559489168846" name="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20" uri="ontologiaCNES.owl"/>
     </group>
 </catalog>

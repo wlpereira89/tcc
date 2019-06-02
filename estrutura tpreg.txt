@@ -12,14 +12,14 @@
 		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa             >
 		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms             >
 		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom       >
-		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </SadtIso         >
-		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</Samu            >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Samu            >
 		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </Nutes           >
 		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </OfOrto          >
-		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >      
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >
 
 
-
+ 
 
 
 

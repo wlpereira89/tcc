@@ -109,7 +109,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CntrRegMedUr">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>Central de Regulação Médica das Urgências</rdfs:label>
     </owl:DatatypeProperty>
@@ -231,7 +230,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:label>SAMU</rdfs:label>
+        <rdfs:label>Unidade Móvel de Nível Pré-Hospitalar na área de Urgência (SAMU)</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -272,17 +271,6 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpLeitos"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>Leitos UCI + isolamento</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UnMvNvPreHospUrg -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#UnMvNvPreHospUrg">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CaracTpGest"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:label>Unidade Móvel de Nível Pré-Hospitalar na área de Urgência</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -383,6 +371,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -392,6 +399,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3 </Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -401,6 +427,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">474</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2  </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -432,6 +477,26 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CnrtTransp      >
+
     </owl:NamedIndividual>
     
 
@@ -441,6 +506,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3 </Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -450,6 +534,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">361</CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">407</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">463</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -481,6 +584,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -489,7 +611,26 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
-        <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+        <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>		
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3 </Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </CnrtTransp      >
     </owl:NamedIndividual>
     
 
@@ -499,6 +640,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#TpGestao"/>
         <pertenceMês rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+		<CntrRegSrvSd     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegSrvSd    >
+		<CntrRegMedUr     rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CntrRegMedUr    >
+		<CntrAtcHem       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CntrAtcHem      >
+		<CntrAtcPsic      rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </CntrAtcPsic     >
+		<CntrSaude        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</CntrSaude       >
+		<ClincEspc        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</ClincEspc       >
+		<CnsltIso         rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </CnsltIso        >
+		<HospEsp          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16 </HospEsp         >
+		<HospGeral        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35 </HospGeral       >
+		<Lacen            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Lacen           >
+		<Policli          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</Policli         >
+		<Upa              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9  </Upa             >
+		<Sms              rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </Sms             >
+		<ServAtDom        rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19 </ServAtDom       >
+		<SadtIso          rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469</SadtIso         >
+		<Samu             rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29 </Samu            >
+		<Nutes            rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </Nutes           >
+		<OfOrto           rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2  </OfOrto          >
+		<CnrtTransp       rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </CnrtTransp      >
     </owl:NamedIndividual>
 </rdf:RDF>
 
