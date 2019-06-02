@@ -3,4 +3,6 @@ select ?mes  ?leitosGerais ?Uti  ?UciIsol
   where {?mes a  cnes:MesRegistro .
                ?mes cnes:Gerais  ?leitosGerais .
                ?mes cnes:UciIsol ?UciIsol .
-               ?mes cnes:Uti ?Uti}
+               ?mes cnes:Uti ?Uti
+				FILTER(?mes = cnes:Ago17 || ?mes = cnes:Ago16)
+	}

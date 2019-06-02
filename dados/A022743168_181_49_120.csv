@@ -1,0 +1,42 @@
+CNES - Estabelecimentos por Tipo - Paraná
+Quantidade por Tipo de Estabelecimento e Ano/mês compet.
+Município: 410690 Curitiba
+Período:Ago/2018, Dez/2018, Abr/2019
+"Tipo de Estabelecimento";"2018/Ago";"2018/Dez";"2019/Abr"
+"CENTRAL DE REGUALAÇÃO";2;2;2
+"CENTRAL DE REGULAÇÃO MÉDICA DAS URGÊNCIAS";1;1;1
+"CENTRO DE ATENÇÃO HEMOTERÁPICA E/OU HEMATOLÓGICA";1;1;1
+"CENTRO DE ATENÇÃO PSICOSSOCIAL-CAPS";13;13;14
+"CENTRO DE SAUDE/UNIDADE BASICA DE SAUDE";112;112;112
+"CENTRAL DE NOTIF. CAPTAÇÃO E DISTR. ÓRGÃOS ESTADUA";1;1;1
+"CLINICA ESPECIALIZADA/AMBULATORIO ESPECIALIZADO";373;373;394
+"CONSULTORIO";4522;4583;4596
+"COOPERATIVA";15;17;18
+"FARMACIA";10;10;10
+"HOSPITAL ESPECIALIZADO";17;17;17
+"HOSPITAL GERAL";42;42;41
+"HOSPITAL DIA";15;14;15
+"LABORATORIO DE SAUDE PUBLICA";1;1;1
+"POLICLINICA";434;431;434
+"OFICINA ORTOPEDICA";2;-;-
+"POSTO DE SAUDE";1;1;1
+"PRONTO ANTEDIMENTO";9;9;9
+"PRONTO SOCORRO ESPECIALIZADO";2;2;2
+"SECRETARIA DE SAUDE";14;14;14
+"SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)";21;22;23
+"UNIDADE DE ATENÇÃO À SAÚDE INDÍGENA";2;2;2
+"UNIDADE DE SERVICO DE APOIO DE DIAGNOSE E TERAPIA";507;514;506
+"UNIDADE DE VIGILANCIA EM SAUDE";3;3;2
+"UNIDADE MISTA";1;1;1
+"UNIDADE MOVEL DE NIVEL PRE-HOSP-URGENCIA/EMERGENCI";29;29;29
+"UNIDADE MOVEL TERRESTRE";3;3;6
+"TELESAÚDE";1;1;1
+"Total";6154;6219;6253
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES
+ Nota:
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+ 
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+ De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+ A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+ 
