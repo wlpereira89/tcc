@@ -1,0 +1,15 @@
+metodo neon desenvolvimento de ontologias
+aluna de doutorado tacla (josiane michalac)
+entender como funciona os dados no datasus nas 3 grandes áreas
+definir relação do modelo para o modelo datasus
+formalizar ontologias computacionais (guairin 2009) e anos 90 95-97
+descrição fraca e sintática da ontologia (quantificar classes, atributos e propriedades)
+érguntas a serem respondida pelo modelo
+conversa com laudelino
+duizard ontologias 
+
+
+//
+
+https://repositorio.ucs.br/xmlui/bitstream/handle/11338/1268/TCC%20Rodrigo%20Pasini.pdf?sequence=1&isAllowed=y 08/09
+

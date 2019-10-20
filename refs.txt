@@ -1,0 +1,13 @@
+BRANDSTADT, Andreas; LE, Van Bang; SPINRAD, Jeremy P. Graph Classes: A Survey. [S. l.]: SIAM, 1999. Disponível em: https://books.google.com.br/books?id=C_19NQe5MwMC&dq=+Spinrad+et+al+(1999)+cograph&hl=pt-BR&lr=. Acesso em: 20 jun. 2019.
+
+Citações:
+Citação indireta com autor incluído no texto: ... Brandstadt, Le e Spinrad (1999)
+
+Citação indireta com autor entre parênteses: ... (BRANDSTADT; LE; SPINRAD, 1999)
+
+PANOZZO, Rodrigo Triches. Caracterizações clássicas e espectrais de cografos. 2017. Dissertação (Mestrado, programa de pós graduação em matemática aplicada) - Instituto de matemática, Universidade Federal do Rio Grande do Sul, Porto Alegre/RS, 2017. Disponível em: https://www.lume.ufrgs.br/handle/10183/172617. Acesso em: 20 jun. 2019.
+
+Citações:
+Citação indireta com autor incluído no texto: ... Panozzo (2017)
+
+Citação indireta com autor entre parênteses: ... (PANOZZO, 2017)

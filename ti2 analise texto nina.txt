@@ -1,0 +1,71 @@
+ Dentre elas, o Arduino ´e uma das mais simples plataformas
+para cria¸c˜ao de prot´otipos, desenvolvido para que estudantes de design e pessoas com
+pouco conhecimento em programa¸c˜ao ou eletrˆonica possam criar facilmente prot´otipos
+funcionais. Ele ´e f´acil para se programar e acoplar componentes eletrˆonicos, al´em de
+ter baixo custo e versatilidade
+
+p5 e p6
+
+Parece que processing é nativa, mas isso não é verdade. C++ modificado é nativa.
+
+A maioria dos dipositivos usados em IoT s˜ao embarcados, ou seja, s˜ao pequenos e
+n˜ao possuem muitos recursos computacionais nem energ´eticos. Por isso, um dos grandes
+desafios desta ´area de pesquisa ´e encontrar algoritmos de baixo custo computacional e
+que utilizem o m´ınimo de recursos para serem executados. p6
+
+Justificativa não fica no problema.
+
+“Qual algoritmo de criptografia ´e o mais indicado para se usar em um sistema
+microcontrolado baseado em plataforma Arduino?” p6
+
+Muito genérico e ganancioso.
+
+Problema computacional
+"Qual é o algoritmo que se comporta melhor em relação a conceitos de desempenho sistemático, tendo enfoque 
+no tempo de execução e o consumo energético, usando técnicas apresentadas por Jain (1991)?"
+
+Objeto computacional
+Tempo de execução e consumo energético de algoritmos de criptografia executados em placas de arduino uno
+
+Ob esp
+Estabelecer crit´erios de avalia¸c˜ao que sejam relevantes para dispositivos de Internet
+das Coisas por meio de revis˜ao da literatura;
+
+??? mas você já definiu isso no problema, citando uma unica fonte e sem falar que foi feita nenhuma pesquisa.
+
+Para o tcc rever regras da abnt sobre espaçamento no início do capitulo, está exagerado.
+
+
+
+Seguran¸ca em redes de computadores ´e uma ´area de intensas pesquisas devido
+ao crescente uso de computadores nas ´ultimas d´ecadas p8
+
+Falta uma introdução ao conceito.  ex: Para iniciar o entendimento deste trabalho irá ser descrita a segurança de redes...
+
+2.4 CONSIDERAC¸OES FINAIS p21?????
+No capitulo de refêncial teórico, algo citado que explica o por que de adotar a abordagem utilizada, essas informações ficam mais pertinentes se
+apresentadas como primeiros paragrafos no capitulo de metodologia.
+
+4.1 p28 pseudo-algoritmo??? quis dizer algoritmo em pseudo código? Entendi nesse sentido, mas a palavra da a idéia que isso não funcione ou algo do tipo.
+
+4.2.3 CONSIDERAC¸OES FINAIS titulo não necessário
+
+A autora j´a possui um shield com leitor, por´em a configura¸c˜ao de pinos deste
+n˜ao ´e compat´ıvel com os pinos do Arduino Mega. Infelizmente a documenta¸c˜ao oficial
+n˜ao deixa expl´ıcita esta incompatibilidade, e a sugest˜ao da comunidade era quebrar os
+pinos incompat´ıveis da shield, inutilizando-a para outras plataformas. Assim, optou-se
+pela aquisi¸c˜ao de um m´odulo que permite conex˜ao em uma protoboard, que facilita a
+integra¸c˜ao com outro modelo de microcontrolador para trabalhos futuros.
+
+Ficou muito pessoal esse texto, falar sobre a dificuldade de documentação e obtenção do recurso antes e depois citar brevemente o problema sem repetir a autora.
+
+Faltou um fechamento do trabalho após as dificuldades encontradas. Reexplicando os objetivos e motivações, no formato de consideções finais
+
+Perguntas:
+
+	No objetivo é citado que o você pretende encontrar o melhor algoritmo, mas não informa métricas. 
+	Acha que é possível encontrar o melhor algoritmo pelo que você pesquisou?
+
+	O que é um pseudo-algoritmo?
+
+	No texto é falado sobre o processing, mas em pesquisa eu vi que a linguagem de programação nativa do arduino é baseada em C++, houve uma mudança? 
