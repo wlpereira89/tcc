@@ -31,6 +31,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possui -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possui">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#descricao"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#quantidade"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -296,6 +318,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#descricao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#descricao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#quantidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#quantidade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -304,6 +344,31 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Acidente_por_animais_peconhentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Acidente_por_animais_peconhentos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA/SUS"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA_mes_registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Botulismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Botulismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
     
 
 
@@ -317,6 +382,239 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Colera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Colera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_de_enfermagem_basicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_de_enfermagem_basicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_medicas_basicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_medicas_basicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Coqueluche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Coqueluche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_ate_2013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_ate_2013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_de_2014_em_diante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_de_2014_em_diante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Difteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Difteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doenca_de_chagas_aguda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doenca_de_chagas_aguda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doencas_exantematicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doencas_exantematicas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Esquistossomose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Esquistossomose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_amarela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_amarela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_maculosa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_maculosa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_tifoide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_tifoide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hantavirose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hantavirose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hepatite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hepatite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Influenza_pandemica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Influenza_pandemica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Intoxicacão_exogena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Intoxicacão_exogena">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_tegumentar_americana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_tegumentar_americana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_visceral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_visceral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leptospirose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leptospirose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Malaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Malaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Meningite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Meningite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_de_enfermagem_nivel_medio_PACS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_de_enfermagem_nivel_medio_PACS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_medicos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_medicos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Paralisia_flacida_aguda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Paralisia_flacida_aguda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Peste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Peste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Producao_medica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SINAN_mes_registro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Raiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Raiva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA_mes_registro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA_mes_registro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA/SUS"/>
     </owl:Class>
     
 
@@ -327,10 +625,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SINAN_mes_registro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SINAN_mes_registro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SINAN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_congenita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_congenita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_em_gestante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_em_gestante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sindrome_da_rubeola_congenita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sindrome_da_rubeola_congenita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_acidental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_acidental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_neonatal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_neonatal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Violencia_domestica_sexual_e_ou_outras_violencias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Violencia_domestica_sexual_e_ou_outras_violencias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Agravo"/>
     </owl:Class>
     
 
@@ -682,6 +1036,62 @@
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </centro_atencao_psicossocial>
         <rdfs:label>Municipal</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Acidente_por_animais_peconhentos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Botulismo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Colera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Coqueluche"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_ate_2013"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dengue_de_2014_em_diante"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Difteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doenca_de_chagas_aguda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Doencas_exantematicas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Esquistossomose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_amarela"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_maculosa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Febre_tifoide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hantavirose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Hepatite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Influenza_pandemica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Intoxicacão_exogena"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_tegumentar_americana"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leishmaniose_visceral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Leptospirose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Malaria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Meningite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Paralisia_flacida_aguda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Peste"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Raiva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_congenita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sifilis_em_gestante"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Sindrome_da_rubeola_congenita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_acidental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tetano_neonatal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Violencia_domestica_sexual_e_ou_outras_violencias"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_de_enfermagem_basicas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Consultas_medicas_basicas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_de_enfermagem_nivel_medio_PACS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Outros_procedimentos_medicos"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
