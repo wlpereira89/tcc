@@ -37,7 +37,7 @@ BEGIN
 
     SELECT @I = @I + 1
     IF @I = @ENT_NR_INDICE
-      RETURN(@DS_STRATU)
+      RETURN(REPLACE(@DS_STRATU, '"', ''))
   END
 
   RETURN NULL
