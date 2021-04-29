@@ -35,20 +35,10 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#possui">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#descricao"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#quantidade"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#mes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA_mes_registro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SINAN_mes_registro"/>
     </owl:ObjectProperty>
     
 
@@ -689,6 +679,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#mes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#mes"/>
+    
+
+
     <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA/SUS -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA/SUS"/>
@@ -706,35 +702,35 @@
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr17 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr17 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr17">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr17">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2734</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</UTI>
-        <rdfs:label>Abril/2017</rdfs:label>
+        <rdfs:label>CNES_Abril/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2736</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</UTI>
-        <rdfs:label>Abril/2018</rdfs:label>
+        <rdfs:label>CNES_Abril/2018</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Estadual -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Estadual -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Estadual">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Clinica_especializada>
@@ -754,16 +750,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</centro_atencao_psicossocial>
-        <rdfs:label>Estadual</rdfs:label>
+        <rdfs:label>CNES_Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Mista -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Mista -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Mista">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </Clinica_especializada>
@@ -783,16 +779,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </centro_atencao_psicossocial>
-        <rdfs:label>Mista</rdfs:label>
+        <rdfs:label>CNES_Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Municipal -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Municipal -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18_Municipal">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Abr18"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abr18"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</Clinica_especializada>
@@ -812,40 +808,40 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </centro_atencao_psicossocial>
-        <rdfs:label>Municipal</rdfs:label>
+        <rdfs:label>CNES_Municipal</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago16 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago16 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago16">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago16">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2745</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</UTI>
-        <rdfs:label>Agosto/2016</rdfs:label>
+        <rdfs:label>CNES_Agosto/2016</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2734</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</UTI>
-        <rdfs:label>Agosto/2017</rdfs:label>
+        <rdfs:label>CNES_Agosto/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Estadual -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Estadual -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Estadual">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Clinica_especializada>
@@ -865,16 +861,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</centro_atencao_psicossocial>
-        <rdfs:label>Estadual</rdfs:label>
+        <rdfs:label>CNES_Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Mista -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Mista -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Mista">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </Clinica_especializada>
@@ -894,16 +890,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </centro_atencao_psicossocial>
-        <rdfs:label>Mista</rdfs:label>
+        <rdfs:label>CNES_Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Municipal -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Municipal -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17_Municipal">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Ago17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Ago17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">361</Clinica_especializada>
@@ -923,40 +919,40 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </centro_atencao_psicossocial>
-        <rdfs:label>Municipal</rdfs:label>
+        <rdfs:label>CNES_Municipal</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez16 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez16 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez16">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez16">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2745</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</UTI>
-        <rdfs:label>Dezembro/2016</rdfs:label>
+        <rdfs:label>CNES_Dezembro/2016</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17 -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_mes_registro"/>
         <Leitos_gerais rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2731</Leitos_gerais>
         <UCI_isolamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</UCI_isolamento>
         <UTI rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</UTI>
-        <rdfs:label>Dezembro/2017</rdfs:label>
+        <rdfs:label>CNES_Dezembro/2017</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Estadual -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Estadual -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Estadual">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Estadual">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Clinica_especializada>
@@ -976,16 +972,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</centro_atencao_psicossocial>
-        <rdfs:label>Estadual</rdfs:label>
+        <rdfs:label>CNES_Estadual</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Mista -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Mista -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Mista">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Mista">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2 </Clinica_especializada>
@@ -1005,16 +1001,16 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0 </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1 </centro_atencao_psicossocial>
-        <rdfs:label>Mista</rdfs:label>
+        <rdfs:label>CNES_Mista</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Municipal -->
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Municipal -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17_Municipal">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17_Municipal">
         <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Tipo_gestao"/>
-        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#Dez17"/>
+        <pertence_ao_mes rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Dez17"/>
         <Centro_de_saude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</Centro_de_saude>
         <Centro_regulacao_servicos rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1  </Centro_regulacao_servicos>
         <Clinica_especializada rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</Clinica_especializada>
@@ -1034,7 +1030,15 @@
         <central_transplantes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </central_transplantes>
         <centro_atencao_hemoterapia_hematologia rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0  </centro_atencao_hemoterapia_hematologia>
         <centro_atencao_psicossocial rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12 </centro_atencao_psicossocial>
-        <rdfs:label>Municipal</rdfs:label>
+        <rdfs:label>CNES_Municipal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abril2019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#CNES_Abril2019">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#SIA_mes_registro"/>
     </owl:NamedIndividual>
     
 
