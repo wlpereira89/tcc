@@ -4,15 +4,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 PREFIX cnes:<http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#> 
-select 
-	?mes  
-	?leitosGerais 
-	?Uti  
-	?UciIsol
-where {
-	?mes a  cnes:MesRegistro .
-	?mes cnes:Gerais  ?leitosGerais .
-	?mes cnes:UciIsol ?UciIsol .
-	?mes cnes:Uti ?Uti 	
-	FILTER(?mes = cnes:Ago17 || ?mes = cnes:Ago16)
-}
+
+Select
+?mes ?LeitosGerais ?LeitosUti ?LeitosUciIsolamento
+where{
+?mes a cnes:MesRegistro .
+?mes cnes:LeitosGerais ?LeitosGerais .
+?mes cnes:LeitosUciIsolamento ?LeitosUciIsolamento .
+?mes cnes:LeitosUti ?LeitosUti .}

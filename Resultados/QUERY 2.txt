@@ -1,48 +1,29 @@
 PREFIX cnes:<http://www.semanticweb.org/wagne/ontologies/2019/4/untitled-ontology-20#> 
-select 
-	?lbmes  
-	?lbtpgest
-	?CntrRegSrvSd
-	?CntrRegMedUr
-	?CntrAtcHem
-	?CntrAtcPsic
-	?CntrSaude
-	?ClincEspc
-	?CnsltIso
-	?HospEsp
-	?HospGeral
-	?Lacen
-	?Policli
-	?Upa
-	?Sms
-	?ServAtDom
-	?SadtIso
-	?Samu
-	?Nutes
-	?OfOrto
-	?CnrtTransp
-where {
-	?mes a  cnes:MesRegistro .
-	?mes rdfs:label ?lbmes .
-	?tpgest cnes:pertenceMes ?mes .
-	?tpgest rdfs:label ?lbtpgest .
-	?tpgest cnes:CntrRegSrvSd ?CntrRegSrvSd .
-	?tpgest cnes:CntrRegMedUr ?CntrRegMedUr .
-	?tpgest cnes:CntrAtcHem ?CntrAtcHem .
-	?tpgest cnes:CntrAtcPsic ?CntrAtcPsic .
-	?tpgest cnes:CntrSaude ?CntrSaude .
-	?tpgest cnes:ClincEspc ?ClincEspc .
-	?tpgest cnes:CnsltIso ?CnsltIso .
-	?tpgest cnes:HospEsp ?HospEsp .
-	?tpgest cnes:HospGeral ?HospGeral .
-	?tpgest cnes:Lacen ?Lacen .
-	?tpgest cnes:Policli ?Policli .
-	?tpgest cnes:Upa ?Upa .
-	?tpgest cnes:Sms ?Sms .
-	?tpgest cnes:ServAtDom ?ServAtDom .
-	?tpgest cnes:SadtIso ?SadtIso .
-	?tpgest cnes:Samu ?Samu .
-	?tpgest cnes:Nutes ?Nutes .
-	?tpgest cnes:OfOrto ?OfOrto .
-	?tpgest cnes:CnrtTransp ?CnrtTransp 
-}
+Select
+?lbmes ?lbTipoGestao ?CentroRegulacaoServicosSaude ?CentroRegulacaoMedicaUrgencias
+?CentroAtencaoHemoterapiaHematologia ?CentroAtencaoPsicossocial ?CentroSaude
+?ClinicaEspecializada ?ConsultorioIsolado ?HospitalEspecializado ?HospitalGeral
+?Lacen ?Policlinica ?Upa ?Sms ?ServicoAtencaoDomincialiar
+?UnidadeApoioDiagnoseTerapia ?Samu ?Nutes
+?OficinaOrtopedica ?CentroNotificaoCaptacaoDistribuicao
+Where{
+?mes a cnes:MesRegistro . ?mes rdfs:label ?lbmes .
+?TipoGestao cnes:pertenceMes ?mes . ?TipoGestao rdfs:label ?lbTipoGestao .
+?TipoGestao cnes:CentroRegulacaoServicosSaude ?CentroRegulacaoServicosSaude .
+?TipoGestao cnes:CentroRegulacaoMedicaUrgencias ?CentroRegulacaoMedicaUrgencias .
+?TipoGestao cnes:CentroAtencaoHemoterapiaHematologia
+?CentroAtencaoHemoterapiaHematologia .
+?TipoGestao cnes:CentroAtencaoPsicossocial ?CentroAtencaoPsicossocial .
+?TipoGestao cnes:CentroSaude ?CentroSaude .
+?TipoGestao cnes:ClinicaEspecializada ?ClinicaEspecializada .
+?TipoGestao cnes:ConsultorioIsolado ?ConsultorioIsolado .
+?TipoGestao cnes:HospitalEspecializado ?HospitalEspecializado .
+?TipoGestao cnes:HospitalGeral ?HospitalGeral . ?TipoGestao cnes:Lacen ?Lacen .
+?TipoGestao cnes:Policlinica ?Policlinica .
+?TipoGestao cnes:Upa ?Upa . ?TipoGestao cnes:Sms ?Sms .
+?TipoGestao cnes:ServicoAtencaoDomincialiar ?ServicoAtencaoDomincialiar .
+?TipoGestao cnes:UnidadeApoioDiagnoseTerapia ?UnidadeApoioDiagnoseTerapia .
+?TipoGestao cnes:Samu ?Samu . ?TipoGestao cnes:Nutes ?Nutes .
+?TipoGestao cnes:OficinaOrtopedica ?OficinaOrtopedica .
+?TipoGestao cnes:CentroNotificaoCaptacaoDistribuicao
+?CentroNotificaoCaptacaoDistribuicao}
